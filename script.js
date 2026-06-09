@@ -3,9 +3,9 @@ let ageInput = document.getElementById("age");
 let nameInput = document.getElementById("name");
 let button = document.getElementById("btn");
 
-button.addEventListener(("click"), ()=>{
+button.addEventListener("click", () => {
    if(ageInput.value === "" || nameInput.value === ""){
-		alert("Please enter valid details");
+		alert("Please enter valid details.");
 		return;
 	}
 
